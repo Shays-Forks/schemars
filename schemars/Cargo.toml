@@ -49,7 +49,7 @@ derive = ["schemars_derive"]
 # Use a different representation for the map type of Schemars.
 # This allows data to be read into a Value and written back to a JSON string
 # while preserving the order of map keys in the input.
-preserve_order = ["indexmap"]
+preserve_order = ["indexmap2"]
 
 impl_json_schema = ["derive"]
 # derive_json_schema will be removed in a later version
